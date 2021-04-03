@@ -15,6 +15,7 @@
 | **MST**                          |                                                              |
 | **String**                       |                                                              |
 | **Tree**                         |                                                              |
+| **Two Pointer**                  | [🥇1806 부분합](https://www.acmicpc.net/problem/1806)         |
 | **2021 KAKAO BLIND RECRUITMENT** |                                                              |
 
 <!--
