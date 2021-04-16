@@ -5,6 +5,10 @@
 
 using namespace std;
 
+/**
+* 최단거리는 BFS다
+*/
+
 bool isVisited[100'000];
 
 int main()
@@ -17,7 +21,7 @@ int main()
 	Q.push({ n,0 });
 	isVisited[n] = true;
 
-	int v,w;
+	int v, w;
 	while (!Q.empty()) {
 		v = Q.front().first;
 		w = Q.front().second;
@@ -36,7 +40,7 @@ int main()
 			isVisited[v - 1] = true;
 			Q.push({ v - 1, w + 1 });
 		}
-		if (0 <= 2*v && 2 * v <= 100'000 && !isVisited[2 * v]) {
+		if (0 <= 2 * v && 2 * v <= 100'000 && !isVisited[2 * v]) {
 			isVisited[2 * v] = true;
 			Q.push({ 2 * v, w + 1 });
 		}

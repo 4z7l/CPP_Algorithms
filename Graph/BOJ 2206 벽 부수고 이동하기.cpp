@@ -4,6 +4,11 @@
 
 using namespace std;
 
+/**
+* 최단거리는 BFS
+* 각 거리에서 또 다른값 저장해야 할 경우 배열 늘리기
+*/
+
 int n, m;
 int map[1000][1000];
 bool isVisited[1000][1000][2];
