@@ -20,7 +20,7 @@
 | **String**                       | [🥇2002 추월](https://www.acmicpc.net/problem/2002)  [🥇4358 생태학](https://www.acmicpc.net/problem/4358)  [🥇5052 전화번호 목록](https://www.acmicpc.net/problem/5052)  [🥇9935 문자열 폭발](https://www.acmicpc.net/problem/9935)<br/>[🥇12904 A와 B](https://www.acmicpc.net/problem/12904) |
 | **Tree**                         | [🥇1167 트리의 지름](https://www.acmicpc.net/problem/1167)  [🥈1991 트리 순회](https://www.acmicpc.net/problem/1991) |
 | **Two Pointer**                  | [🥇1806 부분합](https://www.acmicpc.net/problem/1806)  [🥇2473 세 용액](https://www.acmicpc.net/problem/2473) |
-| **2020 KAKAO INTERNSHIP**        | [🐦키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)  [🐦경주로 건설](https://programmers.co.kr/learn/courses/30/lessons/67259) |
+| **2020 KAKAO INTERNSHIP**        | [🐦키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)  [🐦경주로 건설](https://programmers.co.kr/learn/courses/30/lessons/67259)  [🐦수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) |
 | **2020 KAKAO BLIND RECRUITMENT** | [🐦문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)  [🐦자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)  [🐦외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) |
 | **2021 KAKAO BLIND RECRUITMENT** | [🐦메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)  [🐦신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)  [🐦합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413) |
 
