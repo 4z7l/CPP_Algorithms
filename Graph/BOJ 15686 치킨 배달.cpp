@@ -4,7 +4,11 @@
 
 using namespace std;
 
-int n, m, res=INT_MAX;
+/**
+* 조합 : 배열 만들어서 저장해서 하기
+*/
+
+int n, m, res = INT_MAX;
 vector<pair<int, int>> chickens;
 vector<pair<int, int>> houses;
 int remainChickens[13];
@@ -12,10 +16,10 @@ int remainChickens[13];
 void dfs(int remain, int ch) {
 	if (remain == m) {
 		int sum = 0, x1, y1, x2, y2;
-		
+
 		//치킨 거리 구하고 최솟값 찾기
 		for (int i = 0; i < houses.size(); i++) {
-			int temp= INT_MAX;
+			int temp = INT_MAX;
 			x1 = houses[i].first;
 			y1 = houses[i].second;
 			for (int j = 0; j < remain; j++) {
@@ -30,7 +34,7 @@ void dfs(int remain, int ch) {
 	else {
 		for (int i = ch; i < chickens.size(); i++) {
 			remainChickens[remain] = i;
-			dfs(remain + 1, i+1);
+			dfs(remain + 1, i + 1);
 		}
 	}
 }
@@ -59,7 +63,7 @@ int main() {
 		}
 	}
 
-	dfs(0,0);
+	dfs(0, 0);
 
 	cout << res;
 
